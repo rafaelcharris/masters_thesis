@@ -1,0 +1,30 @@
+{% extends "global/Page.html" %}
+{% load otree static %}
+
+{% block title %}
+    Memoria
+{% endblock %}
+
+{% block content %}
+
+    <p>
+        Por favor identifique la imagen que fue incluida en el conjunto inicial de 20 imágenes que
+        se le mostró anteriormente haciendo clic sobre esta.
+    </p>
+
+
+    <div class="container">
+        <button name="is_correct" class="memory_tile" id="{{ image_id_1 }}"></button>
+        <button name="is_correct" class="memory_tile" id="{{ image_id_2 }}"></button>
+        <button name="is_correct" class="memory_tile" id="{{ image_id_3 }}"></button>
+    </div>
+
+{% endblock %}
+
+{% block styles  %}
+    <link href="{% static "static_memory/css/style_memory.css" %}" rel="stylesheet">
+{% endblock %}
+
+{% block scripts %}
+    <script src="{% static "static_memory/memory_javascript/memory.js" %}"></script>
+{% endblock %}

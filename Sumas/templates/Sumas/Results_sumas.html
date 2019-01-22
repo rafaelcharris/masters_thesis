@@ -1,0 +1,46 @@
+{% extends "global/Page.html" %}
+{% load otree static %}
+
+{% block title %}
+    Este fue su desempeño en esta actividad
+{% endblock %}
+
+{% block content %}
+
+    <!--Usted tuvo un total de <b>{{ player.total_is_correct }}</b> respuestas correctas.<br>
+    Su pago es de <b>{{ player.total_payoff }} puntos</b>.
+    <p class="info_tratamientos">El pago en el sistema es de {{ player.payoff }}</p>-->
+
+        <table class="table">
+            <tr>
+                <th>Suma número</th>
+                <th>Sumandos</th>
+                <th>Solución</th>
+                <th>Su respuesta</th>
+                <th>¿Fue correcta?<br>1 = si, 0 = no</th>
+                <th class="info_tratamientos">Tratamiento</th>
+                <th>Puntos por suma</th>
+                <!--<th>Puntaje acumulado</th>-->
+            </tr>
+            {% for row in table_rows %}
+            <tr>
+                <td>{{ row.num_ronda }}</td>
+                <td nowrap>{{ row.sumando_1 }} + {{ row.sumando_2 }} + {{ row.sumando_3 }} + {{ row.sumando_4 }} + {{ row.sumando_5 }}</td>
+                <td>{{ row.solucion }}</td>
+                <td>{{ row.respuesta }}</td>
+                <td>{{ row.is_correct }}</td>
+                <td class="info_tratamientos">{{ row.treatment }}</td>
+                <td>{{ row.piece_rate }} </td>
+                <!--<td>{{ row.total_payoff }} puntos</td>-->
+            </tr>
+            {% endfor %}
+
+        </table>
+
+
+    {% next_button %}
+{% endblock %}
+
+{% block styles  %}
+    <link href="{% static "static_sumas/css/style_sumas.css" %}" rel="stylesheet">
+{% endblock %}

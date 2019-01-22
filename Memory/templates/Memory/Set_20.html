@@ -1,0 +1,40 @@
+{% extends "global/Page.html" %}
+{% load otree static %}
+
+{% block title %}
+    Memoria
+{% endblock %}
+
+{% block content %}
+    <div class="container-fluid" id="container_memory">
+        <button type="button" class="memory_tile" id="set_20_1"></button>
+        <button type="button" class="memory_tile" id="set_20_2"></button>
+        <button type="button" class="memory_tile" id="set_20_3"></button>
+        <button type="button" class="memory_tile" id="set_20_4"></button>
+        <button type="button" class="memory_tile" id="set_20_5"></button>
+        <button type="button" class="memory_tile" id="set_20_6"></button>
+        <button type="button" class="memory_tile" id="set_20_7"></button>
+        <button type="button" class="memory_tile" id="set_20_8"></button>
+        <button type="button" class="memory_tile" id="set_20_9"></button>
+        <button type="button" class="memory_tile" id="set_20_10"></button>
+        <button type="button" class="memory_tile" id="set_20_11"></button>
+        <button type="button" class="memory_tile" id="set_20_12"></button>
+        <button type="button" class="memory_tile" id="set_20_13"></button>
+        <button type="button" class="memory_tile" id="set_20_14"></button>
+        <button type="button" class="memory_tile" id="set_20_15"></button>
+        <button type="button" class="memory_tile" id="set_20_16"></button>
+        <button type="button" class="memory_tile" id="set_20_17"></button>
+        <button type="button" class="memory_tile" id="set_20_18"></button>
+        <button type="button" class="memory_tile" id="set_20_19"></button>
+        <button type="button" class="memory_tile" id="set_20_20"></button>
+    </div>
+
+{% endblock %}
+
+{% block styles  %}
+    <link href="{% static "static_memory/css/style_memory.css" %}" rel="stylesheet">
+{% endblock %}
+
+{% block scripts %}
+    <script src="{% static "static_memory/memory_javascript/memory.js" %}"></script>
+{% endblock %}

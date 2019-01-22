@@ -1,0 +1,31 @@
+{% extends "global/Page.html" %}
+{% load otree static %}
+
+{% block title %}
+    Lógica
+{% endblock %}
+
+{% block content %}
+
+    <div class="container">
+                <button type="button" class="raven_tile" id="tile_3_a_1"></button>
+                <button type="button" class="raven_tile" id="tile_3_a_2"></button>
+                <button type="button" class="raven_tile" id="tile_3_a_3"></button>
+                <button type="button" class="raven_tile" id="tile_3_a_4"></button>
+    </div>
+    <p>
+        De entre las opciones que se le muestran abajo, por favor indique cuál es la que debería reemplazar el signo de
+        pregunta arriba para completar la secuencia haciendo clic en esta.
+    </p>
+    <div class="container">
+        <button name="is_correct_q3" value="0" class="raven_tile" id="tile_3_b_1"></button>
+        <button name="is_correct_q3" value="0" class="raven_tile" id="tile_3_b_2"></button>
+        <button name="is_correct_q3" value="0" class="raven_tile" id="tile_3_b_3"></button>
+        <button name="is_correct_q3" value="1" class="raven_tile" id="tile_3_b_4"></button>
+        <button name="is_correct_q3" value="0" class="raven_tile" id="tile_3_b_5"></button>
+    </div>
+{% endblock %}
+
+{% block styles  %}
+    <link href="{% static "static_raven/css/style_raven.css" %}" rel="stylesheet">
+{% endblock %}

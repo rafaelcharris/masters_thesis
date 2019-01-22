@@ -1,0 +1,23 @@
+{% extends "global/Page.html" %}
+{% load otree static %}
+
+{% block title %}
+    Resultados
+{% endblock %}
+
+{% block content %}
+    <p>
+        El computador eligió la lotería número <b>{{ player.random_lottery }}</b> para pagar.
+    </p>
+    <p>
+        Su pago por esta decisión es de <b>{{ player.total_payoff }} UME</b>.
+    </p>
+
+    {% next_button %}
+
+{% endblock %}
+
+{% block styles  %}
+    <link href="{% static "static_lottery/css/style_lottery.css" %}" rel="stylesheet">
+{% endblock %}
+

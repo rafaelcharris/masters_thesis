@@ -1,0 +1,37 @@
+{% extends "global/Page.html" %}
+{% load otree static %}
+
+{% block title %}
+    Instrucciones
+{% endblock %}
+
+{% block content %}
+
+    <p>
+        Esta es la segunda parte del estudio.
+    </p>
+    <p>
+        En esta tarea le vamos a mostrar 10 ejercicios. En cada uno de estos ejercicios, a usted se le pide completar
+        una secuencia de imagenes. Para hacerlo usted debe escojer la imagen faltante de
+        entre un conjuto de 5 imagenes que le mostraremos. Solo una de las opciones es la correcta. Cuando de clic en
+        una de las opciones se le mostrará el siguiente ejercicio. Usted tiene 1 minuto para resolver tantos como pueda.
+    </p>
+    <p>
+        Por cada respuesta correcta usted recibirá 1 Unidad Monetaria Experimental (UME). Al final del ejercicio las
+        UME que constituyen su pago se convertirán a pesos colombianos. Cada UME equivale a 1000 pesos colombianos.
+    </p>
+    <p>
+        Si tiene alguna duda, levante la mano y algún asistente se acercará a usted a resolvérsela.
+    </p>
+    <p>
+        Cuando usted esté listo para iniciar de clic en el botón “Siguiente”
+    </p>
+
+    {% next_button %}
+{% endblock %}
+
+
+{% block styles  %}
+    <link href="{% static "static_raven/css/style_raven.css" %}" rel="stylesheet">
+{% endblock %}
+

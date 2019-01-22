@@ -1,0 +1,53 @@
+<div class="table-responsive">
+    <table class="table table-sm" style="max-width:970px; font-size: 12px">.
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th class="bg-secondary"></th>
+            <th></th>
+            <th class="bg-primary"></th>
+            <th></th>
+            <th class="bg-success"></th>
+            <th></th>
+            <th class="bg-danger"></th>
+            <th class="bg-warning"></th>
+        </tr>
+        <tr>
+            <th>P_code</th>
+            <th>Treatment</th>
+            <th>Nombre</th>
+            <th>Id</th>
+            <th>Sumas<br>is_correct</th>
+            <th>Sumas<br>payoff</th>
+            <th>Memory<br>is_correct</th>
+            <th>Memory<br>payoff</th>
+            <th>Dados<br>numero</th>
+            <th>Dados<br>payoff</th>
+            <th>Raven<br>is_correct</th>
+            <th>Raven<br>payoff</th>
+            <th>Lottery<br>payoff</th>
+        </tr>
+        {% for row in table_rows %}
+        <tr>
+            <td>{{ row.participant_code }}</td>
+            <td>{{ row.treatment }}</td>
+            <td>{{ row.consent_nombre }}</td>
+            <td>{{ row.consent_id_number }}</td>
+            <td>{{ row.sumas_total_is_correct }}</td>
+            <td>{{ row.sumas_total_payoff }}</td>
+            <td>{{ row.memory_total_is_correct }}</td>
+            <td>{{ row.memory_total_payoff }}</td>
+            <td>{{ row.dados_reporte_numero }}</td>
+            <td>{{ row.dados_payoff }}</td>
+            <td>{{ row.raven_total_is_correct }}</td>
+            <td>{{ row.raven_total_payoff }}</td>
+            <td>{{ row.lottery_total_payoff }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+
+Notes:

@@ -1,0 +1,531 @@
+.raven_tile {
+    background-size: 100px 100px;
+    height: 100px;
+    width: 100px;
+    color: black;
+    border : 0px solid black;
+    padding: 0px;
+    margin: 2px;
+}
+
+.raven_tile_big {
+    background-size: 200px 200px;
+    height: 200px;
+    width: 200px;
+    color: black;
+    border : 0px solid black;
+    padding: 0px;
+    margin: 2px;
+}
+
+#container_raven {
+    max-width:500px
+}
+
+div {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+/*
+################
+               Q1
+################
+*/
+#tile_1_a_1 {
+    background-image: url('../raven_tiles/1_a_1.jpg');
+}
+
+#tile_1_a_2 {
+    background-image: url('../raven_tiles/1_a_2.jpg');
+}
+
+#tile_1_a_3 {
+    background-image: url('../raven_tiles/1_a_3.jpg');
+}
+
+#tile_1_a_4 {
+    background-image: url('../raven_tiles/1_a_4.jpg');
+}
+
+#tile_1_a_5 {
+    background-image: url('../raven_tiles/1_a_5.jpg');
+}
+
+#tile_1_a_6 {
+    background-image: url('../raven_tiles/1_a_6.jpg');
+}
+
+#tile_1_a_7 {
+    background-image: url('../raven_tiles/1_a_7.jpg');
+}
+
+#tile_1_a_8 {
+    background-image: url('../raven_tiles/1_a_8.jpg');
+}
+
+#tile_1_a_9 {
+    background-image: url('../raven_tiles/1_a_9.jpg');
+}
+
+#tile_1_b_1 {
+    background-image: url('../raven_tiles/1_b_1.jpg');
+}
+
+#tile_1_b_2 {
+    background-image: url('../raven_tiles/1_b_2.jpg');
+}
+
+#tile_1_b_3 {
+    background-image: url('../raven_tiles/1_b_3.jpg');
+}
+
+#tile_1_b_4 {
+    background-image: url('../raven_tiles/1_b_4.jpg');
+}
+
+#tile_1_b_5 {
+    background-image: url('../raven_tiles/1_b_5.jpg');
+}
+/*
+################
+               Q2
+################
+*/
+#tile_2_a_1 {
+    background-image: url('../raven_tiles/2_a_1.jpg');
+}
+
+#tile_2_a_2 {
+    background-image: url('../raven_tiles/2_a_2.jpg');
+}
+
+#tile_2_a_3 {
+    background-image: url('../raven_tiles/2_a_3.jpg');
+}
+
+#tile_2_a_4 {
+    background-image: url('../raven_tiles/2_a_4.jpg');
+}
+
+#tile_2_a_5 {
+    background-image: url('../raven_tiles/2_a_5.jpg');
+}
+
+#tile_2_a_6 {
+    background-image: url('../raven_tiles/2_a_6.jpg');
+}
+
+#tile_2_a_7 {
+    background-image: url('../raven_tiles/2_a_7.jpg');
+}
+
+#tile_2_a_8 {
+    background-image: url('../raven_tiles/2_a_8.jpg');
+}
+
+#tile_2_a_9 {
+    background-image: url('../raven_tiles/2_a_9.jpg');
+}
+
+#tile_2_b_1 {
+    background-image: url('../raven_tiles/2_b_1.jpg');
+}
+
+#tile_2_b_2 {
+    background-image: url('../raven_tiles/2_b_2.jpg');
+}
+
+#tile_2_b_3 {
+    background-image: url('../raven_tiles/2_b_3.jpg');
+}
+
+#tile_2_b_4 {
+    background-image: url('../raven_tiles/2_b_4.jpg');
+}
+
+#tile_2_b_5 {
+    background-image: url('../raven_tiles/2_b_5.jpg');
+}
+
+/*
+################
+               Q3
+################
+*/
+#tile_3_a_1 {
+    background-image: url('../raven_tiles/3_a_1.jpg');
+}
+
+#tile_3_a_2 {
+    background-image: url('../raven_tiles/3_a_2.jpg');
+}
+
+#tile_3_a_3 {
+    background-image: url('../raven_tiles/3_a_3.jpg');
+}
+
+#tile_3_a_4 {
+    background-image: url('../raven_tiles/3_a_4.jpg');
+}
+
+#tile_3_b_1 {
+    background-image: url('../raven_tiles/3_b_1.jpg');
+}
+
+#tile_3_b_2 {
+    background-image: url('../raven_tiles/3_b_2.jpg');
+}
+
+#tile_3_b_3 {
+    background-image: url('../raven_tiles/3_b_3.jpg');
+}
+
+#tile_3_b_4 {
+    background-image: url('../raven_tiles/3_b_4.jpg');
+}
+
+#tile_3_b_5 {
+    background-image: url('../raven_tiles/3_b_5.jpg');
+}
+
+/*
+################
+               Q4
+################
+*/
+#tile_4_a_1 {
+    background-image: url('../raven_tiles/4_a_1.jpg');
+}
+
+#tile_4_a_2 {
+    background-image: url('../raven_tiles/4_a_2.jpg');
+}
+
+#tile_4_a_3 {
+    background-image: url('../raven_tiles/4_a_3.jpg');
+}
+
+#tile_4_a_4 {
+    background-image: url('../raven_tiles/4_a_4.jpg');
+}
+
+#tile_4_a_5 {
+    background-image: url('../raven_tiles/4_a_5.jpg');
+}
+
+#tile_4_a_6 {
+    background-image: url('../raven_tiles/4_a_6.jpg');
+}
+
+#tile_4_a_7 {
+    background-image: url('../raven_tiles/4_a_7.jpg');
+}
+
+#tile_4_a_8 {
+    background-image: url('../raven_tiles/4_a_8.jpg');
+}
+
+#tile_4_a_9 {
+    background-image: url('../raven_tiles/4_a_9.jpg');
+}
+
+#tile_4_b_1 {
+    background-image: url('../raven_tiles/4_b_1.jpg');
+}
+
+#tile_4_b_2 {
+    background-image: url('../raven_tiles/4_b_2.jpg');
+}
+
+#tile_4_b_3 {
+    background-image: url('../raven_tiles/4_b_3.jpg');
+}
+
+#tile_4_b_4 {
+    background-image: url('../raven_tiles/4_b_4.jpg');
+}
+
+#tile_4_b_5 {
+    background-image: url('../raven_tiles/4_b_5.jpg');
+}
+
+/*
+################
+               Q5
+################
+*/
+#tile_5_a_1 {
+    background-image: url('../raven_tiles/5_a_1.jpg');
+}
+
+#tile_5_a_2 {
+    background-image: url('../raven_tiles/5_a_2.jpg');
+}
+
+#tile_5_a_3 {
+    background-image: url('../raven_tiles/5_a_3.jpg');
+}
+
+#tile_5_a_4 {
+    background-image: url('../raven_tiles/5_a_4.jpg');
+}
+
+#tile_5_a_5 {
+    background-image: url('../raven_tiles/5_a_5.jpg');
+}
+
+#tile_5_a_6 {
+    background-image: url('../raven_tiles/5_a_6.jpg');
+}
+
+#tile_5_a_7 {
+    background-image: url('../raven_tiles/5_a_7.jpg');
+}
+
+#tile_5_a_8 {
+    background-image: url('../raven_tiles/5_a_8.jpg');
+}
+
+#tile_5_a_9 {
+    background-image: url('../raven_tiles/5_a_9.jpg');
+}
+
+#tile_5_b_1 {
+    background-image: url('../raven_tiles/5_b_1.jpg');
+}
+
+#tile_5_b_2 {
+    background-image: url('../raven_tiles/5_b_2.jpg');
+}
+
+#tile_5_b_3 {
+    background-image: url('../raven_tiles/5_b_3.jpg');
+}
+
+#tile_5_b_4 {
+    background-image: url('../raven_tiles/5_b_4.jpg');
+}
+
+#tile_5_b_5 {
+    background-image: url('../raven_tiles/5_b_5.jpg');
+}
+
+/*
+################
+               Q6
+################
+*/
+#tile_6_a_1 {
+    background-image: url('../raven_tiles/6_a_1.jpg');
+}
+
+#tile_6_a_2 {
+    background-image: url('../raven_tiles/6_a_2.jpg');
+}
+
+#tile_6_a_3 {
+    background-image: url('../raven_tiles/6_a_3.jpg');
+}
+
+#tile_6_a_4 {
+    background-image: url('../raven_tiles/6_a_4.jpg');
+}
+
+#tile_6_a_5 {
+    background-image: url('../raven_tiles/6_a_5.jpg');
+}
+
+#tile_6_a_6 {
+    background-image: url('../raven_tiles/6_a_6.jpg');
+}
+
+#tile_6_a_7 {
+    background-image: url('../raven_tiles/6_a_7.jpg');
+}
+
+#tile_6_a_8 {
+    background-image: url('../raven_tiles/6_a_8.jpg');
+}
+
+#tile_6_a_9 {
+    background-image: url('../raven_tiles/6_a_9.jpg');
+}
+
+#tile_6_b_1 {
+    background-image: url('../raven_tiles/6_b_1.jpg');
+}
+
+#tile_6_b_2 {
+    background-image: url('../raven_tiles/6_b_2.jpg');
+}
+
+#tile_6_b_3 {
+    background-image: url('../raven_tiles/6_b_3.jpg');
+}
+
+#tile_6_b_4 {
+    background-image: url('../raven_tiles/6_b_4.jpg');
+}
+
+#tile_6_b_5 {
+    background-image: url('../raven_tiles/6_b_5.jpg');
+}
+
+/*
+################
+               Q7
+################
+*/
+#tile_7_a_1 {
+    background-image: url('../raven_tiles/7_a_1.jpg');
+}
+
+#tile_7_a_2 {
+    background-image: url('../raven_tiles/7_a_2.jpg');
+}
+
+#tile_7_a_3 {
+    background-image: url('../raven_tiles/7_a_3.jpg');
+}
+
+#tile_7_a_4 {
+    background-image: url('../raven_tiles/7_a_4.jpg');
+}
+
+#tile_7_b_1 {
+    background-image: url('../raven_tiles/7_b_1.jpg');
+}
+
+#tile_7_b_2 {
+    background-image: url('../raven_tiles/7_b_2.jpg');
+}
+
+#tile_7_b_3 {
+    background-image: url('../raven_tiles/7_b_3.jpg');
+}
+
+#tile_7_b_4 {
+    background-image: url('../raven_tiles/7_b_4.jpg');
+}
+
+#tile_7_b_5 {
+    background-image: url('../raven_tiles/7_b_5.jpg');
+}
+
+/*
+################
+               Q8
+################
+*/
+#tile_8_a_1 {
+    background-image: url('../raven_tiles/8_a_1.jpg');
+}
+
+#tile_8_b_1 {
+    background-image: url('../raven_tiles/8_b_1.jpg');
+}
+
+#tile_8_b_2 {
+    background-image: url('../raven_tiles/8_b_2.jpg');
+}
+
+#tile_8_b_3 {
+    background-image: url('../raven_tiles/8_b_3.jpg');
+}
+
+#tile_8_b_4 {
+    background-image: url('../raven_tiles/8_b_4.jpg');
+}
+
+#tile_8_b_5 {
+    background-image: url('../raven_tiles/8_b_5.jpg');
+}
+
+/*
+################
+               Q9
+################
+*/
+#tile_9_a_1 {
+    background-image: url('../raven_tiles/9_a_1.jpg');
+}
+
+#tile_9_a_2 {
+    background-image: url('../raven_tiles/9_a_2.jpg');
+}
+
+#tile_9_a_3 {
+    background-image: url('../raven_tiles/9_a_3.jpg');
+}
+
+#tile_9_a_4 {
+    background-image: url('../raven_tiles/9_a_4.jpg');
+}
+
+#tile_9_b_1 {
+    background-image: url('../raven_tiles/9_b_1.jpg');
+}
+
+#tile_9_b_2 {
+    background-image: url('../raven_tiles/9_b_2.jpg');
+}
+
+#tile_9_b_3 {
+    background-image: url('../raven_tiles/9_b_3.jpg');
+}
+
+#tile_9_b_4 {
+    background-image: url('../raven_tiles/9_b_4.jpg');
+}
+
+#tile_9_b_5 {
+    background-image: url('../raven_tiles/9_b_5.jpg');
+}
+
+/*
+################
+               Q10
+################
+*/
+#tile_10_a_1 {
+    background-image: url('../raven_tiles/10_a_1.jpg');
+}
+
+#tile_10_a_2 {
+    background-image: url('../raven_tiles/10_a_2.jpg');
+}
+
+#tile_10_a_3 {
+    background-image: url('../raven_tiles/10_a_3.jpg');
+}
+
+#tile_10_a_4 {
+    background-image: url('../raven_tiles/10_a_4.jpg');
+}
+
+#tile_10_b_1 {
+    background-image: url('../raven_tiles/10_b_1.jpg');
+}
+
+#tile_10_b_2 {
+    background-image: url('../raven_tiles/10_b_2.jpg');
+}
+
+#tile_10_b_3 {
+    background-image: url('../raven_tiles/10_b_3.jpg');
+}
+
+#tile_10_b_4 {
+    background-image: url('../raven_tiles/10_b_4.jpg');
+}
+
+#tile_10_b_5 {
+    background-image: url('../raven_tiles/10_b_5.jpg');
+}
+

@@ -1,0 +1,67 @@
+{% extends "global/Page.html" %}
+{% load otree static %}
+
+{% block title %}
+    Cuestionario
+{% endblock %}
+
+{% block content %}
+
+<p>
+    Ahora estamos calculando los pago. Mientras lo hacemos, por favor diligencie el siguiente el siguiente cuestionario.
+</p>
+
+{% formfield player.sexo %}
+{% formfield player.edad %}
+{% formfield player.estado_civil %}
+{% formfield player.carrera %}
+{% formfield player.matricula %}
+{% formfield player.edu_padre %}
+{% formfield player.edu_madre %}
+{% formfield player.estrato %}
+{% formfield player.ingreso %}
+{% formfield player.localidad %}
+{% formfield player.peso %}
+{% formfield player.altura %}
+
+<p> ¿Cómo se considera usted? Normalmente, ¿es usted una persona totalmente dispuesta a tomar riesgos o intenta evitar
+    tomar riesgos? Por favor conteste usando la siguiente escala de uno a cinco, donde uno indica “totalmente dispuesto
+    a tomar riesgos” y cinco “Totalmente contrario a tomar riesgos” </p>
+    <div class="table-responsive text-center align-middle">
+        <table class="table table-bordered" style="max-width:970px; font-size: 12px">
+            <tr>
+                <td >Totalmente dispuesto a tomar riesgos</td>
+                <td><div class="radio "><label><input type="radio" name="fehr_1" value="1"> 1</label></div></td>
+                <td><div class="radio "><label><input type="radio" name="fehr_1" value="2"> 2</label></div></td>
+                <td><div class="radio "><label><input type="radio" name="fehr_1" value="3"> 3</label></div></td>
+                <td><div class="radio "><label><input type="radio" name="fehr_1" value="4"> 4</label></div></td>
+                <td><div class="radio "><label><input type="radio" name="fehr_1" value="5"> 5</label></div></td>
+                <td >Totalmente contrario a tomar riesgos</td>
+            </tr>
+            <tr>
+        </table>
+    </div>
+
+<p> Normalmente, ¿es usted una persona totalmente dispuesta a tomar riesgos de carácter financiero o intenta evitar tomar
+    riesgos financieros? Por favor conteste usando la siguiente escala de uno a cinco, donde uno indica “totalmente
+    dispuesto a tomar riesgos” y cinco “Totalmente contrario a tomar riesgos”</p>
+    <div class="table-responsive text-center align-middle">
+        <table class="table table-bordered" style="max-width:970px; font-size: 12px">
+            <tr>
+                <td >Totalmente dispuesto a tomar riesgos</td>
+                <td><div class="radio "><label><input type="radio" name="fehr_2" value="1"> 1</label></div></td>
+                <td><div class="radio "><label><input type="radio" name="fehr_2" value="2"> 2</label></div></td>
+                <td><div class="radio "><label><input type="radio" name="fehr_2" value="3"> 3</label></div></td>
+                <td><div class="radio "><label><input type="radio" name="fehr_2" value="4"> 4</label></div></td>
+                <td><div class="radio "><label><input type="radio" name="fehr_2" value="5"> 5</label></div></td>
+                <td >Totalmente contrario a tomar riesgos</td>
+            </tr>
+            <tr>
+        </table>
+    </div>
+
+{% formfield player.seicientos %}
+
+    {% next_button %}
+
+{% endblock %}

@@ -1,0 +1,60 @@
+{% extends "global/Page.html" %}
+{% load otree static %}
+
+{% block title %}
+    ANUNCIO
+{% endblock %}
+
+{% block content %}
+
+    {% if  participant.vars.treatment  ==  "rich_nonis"  %}
+        <p>
+            Sus ganancias acumuladas <b>NO</b> han sido afectadas.<br>
+            Usted había acumulado <b>{{ accumulated_before}} puntos</b>, ahora tiene lo mismo.<br>
+        </p>
+        <p>
+            Adicionalmente, su pago por cada respuesta correcta <b>NO</b> ha sido afectado.<br>
+            Usted antes ganaba <b>1000 puntos</b> por cada respuesta correcta.<br>
+            Ahora seguirá ganando lo mismo por cada respuesta correcta.
+        </p>
+    {% elif  participant.vars.treatment  ==  "rich_nis"  %}
+        <p>
+            Sus ganancias acumuladas <b>NO</b> han sido afectadas.<br>
+            Usted había acumulado <b>{{ accumulated_before}} puntos</b>, ahora tiene lo mismo.<br>
+        </p>
+        <p>
+            Adicionalmente su pago por cada respuesta correcta ha sido afectado.<br>
+            Usted antes ganaba <b>1000 puntos</b> por cada respuesta correcta.<br>
+            Ahora por cada respuesta correcta usted ganará <b>500 puntos</b>.
+        </p>
+    {% elif  participant.vars.treatment  ==  "poor_nonis"  %}
+        <p>
+            Sus ganancias acumuladas han sido afectadas. Usted perdío la mitad de sus ganacias.<br>
+            Usted habia acumulado <b>{{ accumulated_before}} puntos</b>, ahora tiene <b>{{ accumulated_after }} puntos</b>.
+            <br>
+        </p>
+        <p>
+            Sin embargo, su pago por cada respuesta correcta <b>NO</b> ha sido afectado.<br>
+            Usted antes ganaba <b>1000 puntos</b> por cada respuesta correcta.<br>
+            Ahora seguirá ganando lo mismo por cada respuesta correcta.
+        </p>
+    {% elif  participant.vars.treatment  ==  "poor_nis"  %}
+        <p>
+            Sus ganancias acumuladas han sido afectadas. Usted perdío la mitad de sus ganacias.<br>
+            Usted había acumulado <b>{{ accumulated_before}} puntos</b>, ahora tiene <b>{{ accumulated_after }} puntos</b>.
+            <br>
+        </p>
+        <p>
+            Adicionalmente su pago por cada respuesta correcta ha sido afectado.<br>
+            Usted antes ganaba <b>1000 puntos</b> por cada respuesta correcta.<br>
+            Ahora por cada respuesta correcta usted ganará <b>500 puntos</b>.
+        </p>
+    {% endif %}
+
+    {% next_button %}
+{% endblock %}
+
+{% block styles  %}
+    <link href="{% static "static_sumas/css/style_sumas.css" %}" rel="stylesheet">
+{% endblock %}
+

@@ -1,0 +1,65 @@
+{% extends "global/Page.html" %}
+{% load otree static %}
+
+{% block title %}
+    Sorteo
+{% endblock %}
+
+{% block content %}
+
+    <p>
+        Ahora vamos a sortear cuál de las cuatro tareas de la segunda parte vamos a pagar. Por favor no presione el
+        Botón "Siguiente" sino hasta cuando se lo indique el investigador.
+    </p>
+    <p>
+        Por favor preste atención a las instrucciones del investigador.
+    </p>
+<div class="container">
+    <div class="table-responsive">
+        <table class="table table-sm" style="max-width:200px; font-size: 16px">
+            <tr>
+                <td>      </td>
+                <th >Balota</th>
+                <th>Tarea</th>
+                <th>Pago</th>
+            </tr>
+            <tr>
+                <td class="bg-secondary">      </td>
+                <td>-</td>
+                <td>Sumas</td>
+                <td nowrap>{{ sumas_total_payoff }} puntos</td>
+            </tr>
+            <tr>
+                <td class="bg-primary">      </td>
+                <td>Azul</td>
+                <td>Memoria</td>
+                <td nowrap>{{ memory_total_payoff }} UME</tdnowrap>
+            </tr>
+            <tr>
+                <td class="bg-success">      </td>
+                <td>Verde</td>
+                <td>Dados</td>
+                <td nowrap>{{ dados_total_payoff }} UME</td>
+            </tr>
+            <tr>
+                <td class="bg-warning">      </td>
+                <td>Amarillo</td>
+                <td>Loterías</td>
+                <td nowrap>{{ lottery_total_payoff }} UME</td>
+            </tr>
+            <tr>
+                <td class="bg-danger">      </td>
+                <td>Rojo</td>
+                <td>Lógica</td>
+                <td nowrap>{{ raven_total_payoff }} UME</td>
+            </tr>
+        </table>
+    </div>
+</div>
+    <p>
+        Solo cuando se le indique, presione el botón "Siguiente".
+    </p>
+
+    {% next_button %}
+{% endblock %}
+

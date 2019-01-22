@@ -1,0 +1,26 @@
+{% extends "global/Page.html" %}
+{% load otree static %}
+
+{% block title %}
+{% endblock %}
+
+{% block content %}
+
+        <!-- Titulo: Este fue su desempeño en esta actividad -->
+
+
+    <!--Usted tuvo un total de <b>{{ player.accumulated_is_correct }}</b> respuestas correctas.<br>
+    Su pago por esta actividad es de <b>{{ player.accumulated_payoff}} UME</b><br> --->
+    De clic en el botón "Siguiente" para continuar con la siguiente actividad
+    <p></p>
+
+    {% next_button %}
+{% endblock %}
+
+{% block styles  %}
+    <link href="{% static "static_memory/css/style_memory.css" %}" rel="stylesheet">
+{% endblock %}
+
+{% block scripts %}
+    <script src="{% static "static_memory/memory_javascript/memory.js" %}"></script>
+{% endblock %}

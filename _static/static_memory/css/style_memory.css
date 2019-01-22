@@ -1,0 +1,422 @@
+.memory_tile {
+    background-size: 92px 92px;
+    height: 100px;
+    width: 100px;
+    color: black;
+    border : 4px solid black;
+    padding: 0px;
+    margin: 2px;
+}
+
+#container_memory {
+    max-width:500px
+}
+
+
+div {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+/*
+################
+               ejemplos
+################
+*/
+#ej_0 {
+    background-image: url('../set_ejemplos/ej_0.jpg');
+}
+
+#ej_1 {
+    background-image: url('../set_ejemplos/ej_1.jpg');
+}
+
+#ej_2 {
+    background-image: url('../set_ejemplos/ej_2.jpg');
+}
+
+#ej_3 {
+    background-image: url('../set_ejemplos/ej_3.jpg');
+}
+
+
+
+/*
+################
+               set_de_20
+################
+*/
+
+#set_20_1 {
+    background-image: url('../set_de_20/set_20_1.jpg');
+}
+
+#set_20_2 {
+    background-image: url('../set_de_20/set_20_2.jpg');
+}
+
+#set_20_3 {
+    background-image: url('../set_de_20/set_20_3.jpg');
+}
+
+#set_20_4 {
+    background-image: url('../set_de_20/set_20_4.jpg');
+}
+
+#set_20_5 {
+    background-image: url('../set_de_20/set_20_5.jpg');
+}
+
+#set_20_6 {
+    background-image: url('../set_de_20/set_20_6.jpg');
+}
+
+#set_20_7 {
+    background-image: url('../set_de_20/set_20_7.jpg');
+}
+
+#set_20_8 {
+    background-image: url('../set_de_20/set_20_8.jpg');
+}
+
+#set_20_9 {
+    background-image: url('../set_de_20/set_20_9.jpg');
+}
+
+#set_20_10 {
+    background-image: url('../set_de_20/set_20_10.jpg');
+}
+
+#set_20_11 {
+    background-image: url('../set_de_20/set_20_11.jpg');
+}
+
+#set_20_12 {
+    background-image: url('../set_de_20/set_20_12.jpg');
+}
+
+#set_20_13 {
+    background-image: url('../set_de_20/set_20_13.jpg');
+}
+
+#set_20_14 {
+    background-image: url('../set_de_20/set_20_14.jpg');
+}
+
+#set_20_15 {
+    background-image: url('../set_de_20/set_20_15.jpg');
+}
+
+#set_20_16 {
+    background-image: url('../set_de_20/set_20_16.jpg');
+}
+
+#set_20_17 {
+    background-image: url('../set_de_20/set_20_17.jpg');
+}
+
+#set_20_18 {
+    background-image: url('../set_de_20/set_20_18.jpg');
+}
+
+#set_20_19 {
+    background-image: url('../set_de_20/set_20_19.jpg');
+}
+
+#set_20_20 {
+    background-image: url('../set_de_20/set_20_20.jpg');
+}
+
+
+/*
+################
+               set_de_3
+################
+*/
+
+/*               set_de_3 ronda 1                        */
+
+#set_3_1_1 {
+    background-image: url('../sets_de_3/set_3_1_1.jpg');
+}
+
+#set_3_1_2 {
+    background-image: url('../sets_de_3/set_3_1_2.jpg');
+}
+
+#set_3_1_3 {
+    background-image: url('../sets_de_3/set_3_1_3.jpg');
+}
+
+/*               set_de_3 ronda 2                        */
+
+#set_3_2_1 {
+    background-image: url('../sets_de_3/set_3_2_1.jpg');
+}
+
+#set_3_2_2 {
+    background-image: url('../sets_de_3/set_3_2_2.jpg');
+}
+
+#set_3_2_3 {
+    background-image: url('../sets_de_3/set_3_2_3.jpg');
+}
+
+/*               set_de_3 ronda 3                        */
+
+#set_3_3_1 {
+    background-image: url('../sets_de_3/set_3_3_1.jpg');
+}
+
+#set_3_3_2 {
+    background-image: url('../sets_de_3/set_3_3_2.jpg');
+}
+
+#set_3_3_3 {
+    background-image: url('../sets_de_3/set_3_3_3.jpg');
+}
+
+/*               set_de_3 ronda 4                        */
+
+#set_3_4_1 {
+    background-image: url('../sets_de_3/set_3_4_1.jpg');
+}
+
+#set_3_4_2 {
+    background-image: url('../sets_de_3/set_3_4_2.jpg');
+}
+
+#set_3_4_3 {
+    background-image: url('../sets_de_3/set_3_4_3.jpg');
+}
+
+/*               set_de_3 ronda 5                        */
+
+#set_3_5_1 {
+    background-image: url('../sets_de_3/set_3_5_1.jpg');
+}
+
+#set_3_5_2 {
+    background-image: url('../sets_de_3/set_3_5_2.jpg');
+}
+
+#set_3_5_3 {
+    background-image: url('../sets_de_3/set_3_5_3.jpg');
+}
+
+/*               set_de_3 ronda 6                        */
+
+#set_3_6_1 {
+    background-image: url('../sets_de_3/set_3_6_1.jpg');
+}
+
+#set_3_6_2 {
+    background-image: url('../sets_de_3/set_3_6_2.jpg');
+}
+
+#set_3_6_3 {
+    background-image: url('../sets_de_3/set_3_6_3.jpg');
+}
+
+/*               set_de_3 ronda 7                        */
+
+#set_3_7_1 {
+    background-image: url('../sets_de_3/set_3_7_1.jpg');
+}
+
+#set_3_7_2 {
+    background-image: url('../sets_de_3/set_3_7_2.jpg');
+}
+
+#set_3_7_3 {
+    background-image: url('../sets_de_3/set_3_7_3.jpg');
+}
+
+/*               set_de_3 ronda 8                        */
+
+#set_3_8_1 {
+    background-image: url('../sets_de_3/set_3_8_1.jpg');
+}
+
+#set_3_8_2 {
+    background-image: url('../sets_de_3/set_3_8_2.jpg');
+}
+
+#set_3_8_3 {
+    background-image: url('../sets_de_3/set_3_8_3.jpg');
+}
+
+/*               set_de_3 ronda 9                        */
+
+#set_3_9_1 {
+    background-image: url('../sets_de_3/set_3_9_1.jpg');
+}
+
+#set_3_9_2 {
+    background-image: url('../sets_de_3/set_3_9_2.jpg');
+}
+
+#set_3_9_3 {
+    background-image: url('../sets_de_3/set_3_9_3.jpg');
+}
+
+/*               set_de_3 ronda 10                        */
+
+#set_3_10_1 {
+    background-image: url('../sets_de_3/set_3_10_1.jpg');
+}
+
+#set_3_10_2 {
+    background-image: url('../sets_de_3/set_3_10_2.jpg');
+}
+
+#set_3_10_3 {
+    background-image: url('../sets_de_3/set_3_10_3.jpg');
+}
+
+/*               set_de_3 ronda 11                        */
+
+#set_3_11_1 {
+    background-image: url('../sets_de_3/set_3_11_1.jpg');
+}
+
+#set_3_11_2 {
+    background-image: url('../sets_de_3/set_3_11_2.jpg');
+}
+
+#set_3_11_3 {
+    background-image: url('../sets_de_3/set_3_11_3.jpg');
+}
+
+/*               set_de_3 ronda 12                        */
+
+#set_3_12_1 {
+    background-image: url('../sets_de_3/set_3_12_1.jpg');
+}
+
+#set_3_12_2 {
+    background-image: url('../sets_de_3/set_3_12_2.jpg');
+}
+
+#set_3_12_3 {
+    background-image: url('../sets_de_3/set_3_12_3.jpg');
+}
+
+/*               set_de_3 ronda 13                        */
+
+#set_3_13_1 {
+    background-image: url('../sets_de_3/set_3_13_1.jpg');
+}
+
+#set_3_13_2 {
+    background-image: url('../sets_de_3/set_3_13_2.jpg');
+}
+
+#set_3_13_3 {
+    background-image: url('../sets_de_3/set_3_13_3.jpg');
+}
+
+/*               set_de_3 ronda 14                        */
+
+#set_3_14_1 {
+    background-image: url('../sets_de_3/set_3_14_1.jpg');
+}
+
+#set_3_14_2 {
+    background-image: url('../sets_de_3/set_3_14_2.jpg');
+}
+
+#set_3_14_3 {
+    background-image: url('../sets_de_3/set_3_14_3.jpg');
+}
+
+/*               set_de_3 ronda 15                        */
+
+#set_3_15_1 {
+    background-image: url('../sets_de_3/set_3_15_1.jpg');
+}
+
+#set_3_15_2 {
+    background-image: url('../sets_de_3/set_3_15_2.jpg');
+}
+
+#set_3_15_3 {
+    background-image: url('../sets_de_3/set_3_15_3.jpg');
+}
+
+/*               set_de_3 ronda 16                        */
+
+#set_3_16_1 {
+    background-image: url('../sets_de_3/set_3_16_1.jpg');
+}
+
+#set_3_16_2 {
+    background-image: url('../sets_de_3/set_3_16_2.jpg');
+}
+
+#set_3_16_3 {
+    background-image: url('../sets_de_3/set_3_16_3.jpg');
+}
+
+/*               set_de_3 ronda 17                        */
+
+#set_3_17_1 {
+    background-image: url('../sets_de_3/set_3_17_1.jpg');
+}
+
+#set_3_17_2 {
+    background-image: url('../sets_de_3/set_3_17_2.jpg');
+}
+
+#set_3_17_3 {
+    background-image: url('../sets_de_3/set_3_17_3.jpg');
+}
+
+/*               set_de_3 ronda 18                        */
+
+#set_3_18_1 {
+    background-image: url('../sets_de_3/set_3_18_1.jpg');
+}
+
+#set_3_18_2 {
+    background-image: url('../sets_de_3/set_3_18_2.jpg');
+}
+
+#set_3_18_3 {
+    background-image: url('../sets_de_3/set_3_18_3.jpg');
+}
+
+/*               set_de_3 ronda 19                        */
+
+#set_3_19_1 {
+    background-image: url('../sets_de_3/set_3_19_1.jpg');
+}
+
+#set_3_19_2 {
+    background-image: url('../sets_de_3/set_3_19_2.jpg');
+}
+
+#set_3_19_3 {
+    background-image: url('../sets_de_3/set_3_19_3.jpg');
+}
+
+/*               set_de_3 ronda 20                        */
+
+#set_3_20_1 {
+    background-image: url('../sets_de_3/set_3_20_1.jpg');
+}
+
+#set_3_20_2 {
+    background-image: url('../sets_de_3/set_3_20_2.jpg');
+}
+
+#set_3_20_3 {
+    background-image: url('../sets_de_3/set_3_20_3.jpg');
+}
+
+

@@ -1,0 +1,50 @@
+{% extends "global/Page.html" %}
+{% load otree static %}
+
+{% block title %}
+    A sumar!
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <div class="row">
+                    <div class="col-20">
+                        <p style="font-size:25px"><b>{{ player.sumando_1 }} + {{ player.sumando_2 }} + {{ player.sumando_3 }} + {{ player.sumando_4 }}+ {{ player.sumando_5 }} =</b></p>
+                    </div>
+                    <div class="col-sm">
+                        {{ form.respuesta }}
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <p>
+                    La ronda anterior fue: {{ round_count }}.<br>
+                    Su respuesta anterior fue:
+                    {% if correct_last_round == "correcta" %}
+                    <span style="color:green"><b>{{ correct_last_round }}</b></span>.
+                    {% elif correct_last_round == "incorrecta" %}
+                    <span style="color:red"><b>{{ correct_last_round }}</b></span>.
+                    {% endif %}
+                <br>
+                    Numero de respuestas correctas acumuladas hasta ahora: {{ accumulated_is_correct }}.<br>
+                </p>
+                <p>
+                    Si responde esta respuesta correctamente usted ganará {{ piece_rate }} puntos<br>
+                </p>
+                <p>
+                    Ganancias acumuladas hasta ahora: {{ accumulated_payoff }} puntos<br>
+                </p>
+                <p class="info_tratamientos">
+                    Tratamiento actual es {{ player.treatment }}.
+                </p>
+            </div>
+        </div>
+    </div>
+    {% next_button %}
+{% endblock %}
+
+{% block styles  %}
+    <link href="{% static "static_sumas/css/style_sumas.css" %}" rel="stylesheet">
+{% endblock %}

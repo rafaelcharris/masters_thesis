@@ -1,0 +1,111 @@
+{% extends "global/Page.html" %}
+{% load otree static %}
+
+{% block title %}
+    Lotería
+{% endblock %}
+
+{% block content %}
+    <p>
+        Esta es la segunda parte del estudio.
+    </p>
+    <p>Para este ejercicio a usted se le ha asignado <b>{{ Constants.endowment }} Unidades Monetarias Experimentales
+        (UME)</b>. El pago por esta actividad dependerá únicamente de esta asignación y de sus decisiónes en esta actividad.
+    </p>
+    <p>A continuación le vamos a pedir que tome una serie de decisiones entre dos opciones. Cada uno de los renglones de
+        la tabla de abajo es una elección entre dos opciones. La opción 1 es una lotería. ¿Que es una lotería?
+        Una lotería es como lanzar una moneda. Si sale cara (50% de probabilidad) usted va a ganar algunas UME más.
+        Si sale sello (50% de probabilidad) va a perder algunas UME. La opción 2, al contrario, no le va a hacer ganar ni
+        perder.
+    </p>
+    <p> Al final, el computador eligíra aleatoriamente uno de los 6 renglones y hará efectiva su decisión para ese renglón, es decir,
+        si escogió la opción 1, usted va a recibir la asignación inicial más el resultado de la lotería. Si escogió la opción
+        2, usted va a recibir únicamente la asignación inicial.
+    </p>
+    <p>
+        Miremos un ejemplo:
+    </p>
+    <p>Si el computador elige el primer renglón para hacer efectiva su decisión y, adicionalmente, usted <b>SI</b> decidió jugar esa lotería,
+        usted puede perder 2 UME con probabilidad del 50%, o ganar 6 UME más con probabilidad del 50%. Si usted decidió <b>NO</b> jugar
+        esa lotería usted no ganará ni perderá UME adicionales.
+    </p>
+    <p>
+        Al final del ejercicio las UME que constituyen su pago se convertirán a pesos colombianos. Cada UME equivale a 1000 pesos colombianos.
+    </p>
+    <p>
+        Si tiene alguna duda, levante la mano y algún asistente se acercará a usted a resolvérsela.
+    </p>
+    <div class="table-responsive text-center align-middle">
+        <table class="table table-bordered" style="max-width:970px; font-size: 12px">
+            <tr>
+                <th rowspan="2"  >Renglón número </th>
+                <th colspan="2"  >Opción 1</th>
+                <th>Opción 2</th>
+                <th colspan="2" >Escoja entre opción 1 u opción 2</th>
+            </tr>
+            <tr>
+                <th >50%</th>
+                <th >50%</th>
+                <th>100%</th>
+                <th >Opción 1</th>
+                <th >Opción 2</th>
+            </tr>
+            <tr>
+                <td >1</td>
+                <td>Perder 2 UME</td>
+                <td>Ganar 6 UME</td>
+                <td>0 UME</td>
+                <td><div class="radio "><label><input type="radio" name="binary_lottery_1" value="1"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="binary_lottery_1" value="0"> </label></div></td>
+            </tr>
+            <tr>
+                <td >2</td>
+                <td>Perder 3 UME</td>
+                <td>Ganar 6 UME</td>
+                <td>0 UME</td>
+                <td><div class="radio "><label><input type="radio" name="binary_lottery_2" value="1"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="binary_lottery_2" value="0"> </label></div></td>
+            </tr>
+            <tr>
+                <td >3</td>
+                <td>Perder 4 UME</td>
+                <td>Ganar 6 UME</td>
+                <td>0 UME</td>
+                <td><div class="radio "><label><input type="radio" name="binary_lottery_3" value="1"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="binary_lottery_3" value="0"> </label></div></td>
+            </tr>
+            <tr>
+                <td >4</td>
+                <td>Perder 5 UME</td>
+                <td>Ganar 6 UME</td>
+                <td>0 UME</td>
+                <td><div class="radio "><label><input type="radio" name="binary_lottery_4" value="1"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="binary_lottery_4" value="0"> </label></div></td>
+            </tr>
+            <tr>
+                <td >5</td>
+                <td>Perder 6 UME</td>
+                <td>Ganar 6 UME</td>
+                <td>0 UME</td>
+                <td><div class="radio "><label><input type="radio" name="binary_lottery_5" value="1"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="binary_lottery_5" value="0"> </label></div></td>
+            </tr>
+            <tr>
+                <td >6</td>
+                <td>Perder 7 UME</td>
+                <td>Ganar 6 UME</td>
+                <td>0 UME</td>
+                <td><div class="radio "><label><input type="radio" name="binary_lottery_6" value="1"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="binary_lottery_6" value="0"> </label></div></td>
+            </tr>
+        </table>
+    </div>
+
+    {% next_button %}
+
+{% endblock %}
+
+{% block styles  %}
+    <link href="{% static "static_lottery/css/style_lottery.css" %}" rel="stylesheet">
+{% endblock %}
+

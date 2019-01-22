@@ -1,0 +1,58 @@
+{% extends "global/Page.html" %}
+{% load otree static %}
+
+{% block title %}
+    Instrucciones
+{% endblock %}
+
+{% block content %}
+
+    <p>
+        Esta es la segunda parte del estudio.
+    </p>
+    <p>
+        En esta tarea le vamos a mostrar en la pantalla del computador un conjunto de imágenes por treinta segundos.
+        Usted va a ver 20 imágenes en la pantalla, por ejemplo, como esta:
+    </p>
+    <div class="container">
+        <button type="button" class="memory_tile" id="ej_0"></button>
+    </div>
+    <p>
+        Después de los treinta segundos, la pantalla desaparecerá y aparecerá una serie de pantallas donde en cada una le
+        mostraremos tres imágenes. Solo una de las tres se incluyó en la pantalla anterior con las 20 imágenes.  En
+        total son 20 conjuntos de 3 imágenes que se le mostrarán. Para cada uno de estos le pediremos que seleccione la
+        imagen que estaba incluida en el conjunto inicial de 20 imágenes.
+    </p>
+    <p>
+        Por ejemplo:
+    </p>
+    <div class="container">
+        <button type="button" class="memory_tile" id="ej_1"></button>
+        <button type="button" class="memory_tile" id="ej_2"></button>
+        <button type="button" class="memory_tile" id="ej_3"></button>
+    </div>
+    <p>
+        De estas tres imágenes usted deberá seleccionar la que apareció en el conjunto inicial de 20 imágenes. Usted
+        tiene un minuto para responder tantas preguntas como pueda.
+    </p>
+    <p>
+        Por cada respuesta correcta usted recibirá 1 Unidad Monetaria Experimental (UME). Al final del ejercicio las
+        UME que constituyen su pago se convertirán a pesos colombianos. Cada UME equivale a 1000 pesos colombianos.
+    </p>
+    <p>
+        Si tiene alguna duda, levante la mano y algún asistente se acercará a usted a resolvérsela.
+    </p>
+    <p>
+        Cuando usted esté listo para iniciar de clic en el botón “Siguiente”
+    </p>
+
+    {% next_button %}
+{% endblock %}
+
+{% block styles  %}
+    <link href="{% static "static_memory/css/style_memory.css" %}" rel="stylesheet">
+{% endblock %}
+
+{% block scripts %}
+    <script src="{% static "static_memory/memory_javascript/memory.js" %}"></script>
+{% endblock %}
